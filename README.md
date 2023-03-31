@@ -7,7 +7,7 @@ Our main contributions include a novel approach to modeling data with different 
 We provide numerical experiments to demonstrate the performance of our approach. Specifically, we include two simulation scenarios and a real data analysis, all of which are introduced in the paper.
 
 Our repository includes three source files:
-- algEM.fmr.ST.cr.try.R: function for EM algorithm for Finite Mixtures of Cnesored data under N, T, SN and ST. This function allows users to easily determine the type of censoring present in their data using y (for left-censored data) and -y (for right-censored data).
+- algEM.fmr.ST.cr.try.R: function for EM algorithm for Finite Mixtures of Cnesored data under N, T, SN and ST. This function allows users to easily determine the type of censoring present in their data using 'y' (for left-censored data) and '-y' (for right-censored data).
 - Integral_nu_float.R: defind the density function of location-scale Student's-T distribution
 - Moment_SMSNT.R: Functions for calculating EM algorithm
 
